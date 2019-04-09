@@ -79,7 +79,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u7CFB\u7EDF"
+  m_Text: "\u6280\u80FD"
 --- !u!114 &5975532216100265997
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -106,9 +106,10 @@ GameObject:
   - component: {fileID: 5975532217890534421}
   - component: {fileID: 5975532217890534423}
   - component: {fileID: 5975532217890534420}
-  - component: {fileID: 6493586671075513745}
+  - component: {fileID: 4852831812559837076}
+  - component: {fileID: 9107226492294767285}
   m_Layer: 5
-  m_Name: SystemPanel
+  m_Name: SkillPanel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -172,7 +173,7 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
---- !u!114 &6493586671075513745
+--- !u!114 &4852831812559837076
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -181,9 +182,21 @@ MonoBehaviour:
   m_GameObject: {fileID: 5975532217890534426}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1202644d5e9c21d4ebe6187ff421cd3f, type: 3}
+  m_Script: {fileID: 11500000, guid: 3bb7cb6fe1ac5da4ab76947834db2dfc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!225 &9107226492294767285
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5975532217890534426}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &8771913777534704077
 GameObject:
   m_ObjectHideFlags: 0
@@ -299,6 +312,17 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 5881621051482011235}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 4852831812559837076}
+        m_MethodName: OnClosePanel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null

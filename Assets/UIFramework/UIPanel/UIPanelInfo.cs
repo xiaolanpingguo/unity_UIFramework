@@ -4,7 +4,7 @@ using System;
 using UnityEngine;
 
 [Serializable]
-public class UIPanelInfo : MonoBehaviour
+public class UIPanelInfo : ISerializationCallbackReceiver
 {
     [NonSerialized]
     public UIPanelType panelType;

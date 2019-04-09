@@ -53,6 +53,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Demigiant\DOTweenPro\DOTweenAnimation.cs" />
      <Compile Include="Assets\Scripts\Panel\ItemMessagePanel.cs" />
      <Compile Include="Assets\Scripts\Panel\KnapsackPanel.cs" />
      <Compile Include="Assets\Scripts\Panel\MainMenuPanel.cs" />
@@ -61,10 +62,18 @@
      <Compile Include="Assets\Scripts\Panel\SystemPanel.cs" />
      <Compile Include="Assets\Scripts\Panel\TaskPanel.cs" />
      <Compile Include="Assets\UIFramework\Base\BasePanel.cs" />
+     <Compile Include="Assets\UIFramework\Extension\DictionaryExtension.cs" />
      <Compile Include="Assets\UIFramework\Manager\GameRoot.cs" />
      <Compile Include="Assets\UIFramework\Manager\UIManager.cs" />
      <Compile Include="Assets\UIFramework\UIPanel\UIPanelInfo.cs" />
      <Compile Include="Assets\UIFramework\UIPanel\UIPanelType.cs" />
+     <None Include="Assets\Demigiant\DOTweenPro\readme.txt" />
+     <None Include="Assets\Demigiant\DemiLib\Core\DemiLib.xml" />
+     <None Include="Assets\Demigiant\DOTween\DOTween50.xml" />
+     <None Include="Assets\Demigiant\DOTween\DOTween46.xml" />
+     <None Include="Assets\Demigiant\DOTween\readme.txt" />
+     <None Include="Assets\Demigiant\DOTween\DOTween43.xml" />
+     <None Include="Assets\Demigiant\readme_DOTweenPro.txt" />
      <None Include="Assets\Images\005-number combo\number_font.fnt" />
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>G:/UnityProjects/UIFramework/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
@@ -290,6 +299,24 @@
  </Reference>
  <Reference Include="Unity.Analytics.Tracker">
  <HintPath>G:/UnityProjects/UIFramework/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween46">
+ <HintPath>G:/UnityProjects/UIFramework/Assets/Demigiant/DOTween/DOTween46.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween50">
+ <HintPath>G:/UnityProjects/UIFramework/Assets/Demigiant/DOTween/DOTween50.dll</HintPath>
+ </Reference>
+ <Reference Include="DemiLib">
+ <HintPath>G:/UnityProjects/UIFramework/Assets/Demigiant/DemiLib/Core/DemiLib.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween43">
+ <HintPath>G:/UnityProjects/UIFramework/Assets/Demigiant/DOTween/DOTween43.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween">
+ <HintPath>G:/UnityProjects/UIFramework/Assets/Demigiant/DOTween/DOTween.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTweenPro">
+ <HintPath>G:/UnityProjects/UIFramework/Assets/Demigiant/DOTweenPro/DOTweenPro.dll</HintPath>
  </Reference>
  <Reference Include="netstandard">
  <HintPath>F:/Unity2018.1.0f2/Unity/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
